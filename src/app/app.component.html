@@ -15,7 +15,7 @@
            
               <input id="lovename" type="text" name="lovename" [(ngModel)]="lovename" placeholder="Love Name...">     
             </div>
-            <div><button type="submit"  class="btn btn-success" [disabled]="value" (click)="checkloveper()">Check</button></div>
+            <div><button type="submit"  class="btn btn-success" [disabled]="value" (click)="checkloveper()">Submit</button></div>
         
             <div>
               <input [hidden]="createform.form.valid || createform.form.invalid" class="lovepercentage" type="text" name="value" [(ngModel)]="value" placeholder="Love percentage">    
